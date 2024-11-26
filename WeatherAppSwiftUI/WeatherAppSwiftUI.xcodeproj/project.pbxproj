@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		08A1F35D2CF665C300315CD0 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 08A1F35C2CF665C300315CD0 /* Lottie */; };
+		08A1F3602CF6660000315CD0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 08A1F35F2CF6660000315CD0 /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		08237A212CF6586E00431491 /* WeatherAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A1F35D2CF665C300315CD0 /* Lottie in Frameworks */,
+				08A1F3602CF6660000315CD0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,8 @@
 			);
 			name = WeatherAppSwiftUI;
 			packageProductDependencies = (
+				08A1F35C2CF665C300315CD0 /* Lottie */,
+				08A1F35F2CF6660000315CD0 /* Alamofire */,
 			);
 			productName = WeatherAppSwiftUI;
 			productReference = 08237A212CF6586E00431491 /* WeatherAppSwiftUI.app */;
@@ -94,6 +103,10 @@
 			);
 			mainGroup = 08237A182CF6586E00431491;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				08A1F35B2CF665C300315CD0 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				08A1F35E2CF6660000315CD0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 08237A222CF6586E00431491 /* Products */;
 			projectDirPath = "";
@@ -324,6 +337,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		08A1F35B2CF665C300315CD0 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		08A1F35E2CF6660000315CD0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		08A1F35C2CF665C300315CD0 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08A1F35B2CF665C300315CD0 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		08A1F35F2CF6660000315CD0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08A1F35E2CF6660000315CD0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 08237A192CF6586E00431491 /* Project object */;
 }
