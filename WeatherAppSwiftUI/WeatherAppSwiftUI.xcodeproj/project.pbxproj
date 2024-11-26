@@ -16,7 +16,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		08237A232CF6586E00431491 /* WeatherAppSwiftUI */ = {
+		08914ECF2CF672AE0072F189 /* WeatherAppSwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = WeatherAppSwiftUI;
 			sourceTree = "<group>";
@@ -39,7 +39,7 @@
 		08237A182CF6586E00431491 = {
 			isa = PBXGroup;
 			children = (
-				08237A232CF6586E00431491 /* WeatherAppSwiftUI */,
+				08914ECF2CF672AE0072F189 /* WeatherAppSwiftUI */,
 				08237A222CF6586E00431491 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +68,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				08237A232CF6586E00431491 /* WeatherAppSwiftUI */,
+				08914ECF2CF672AE0072F189 /* WeatherAppSwiftUI */,
 			);
 			name = WeatherAppSwiftUI;
 			packageProductDependencies = (
@@ -271,6 +271,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,6 +301,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
