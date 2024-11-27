@@ -41,10 +41,16 @@ extension String {
     // MARK: - WeeklyForecast Screen
     static let backButtonText: String = "Back"
     
-    // MARK: - General, Error Handling
+    // MARK: - General
     static let empty = ""
+    static let firstEntranceLaunchKey: String = "hasLaunchedBefore"
+    static let appName: String = "WeatherApp"
+    
+    // MARK: - Validation
     static let usernameError: String = "Incorrect username"
     static let passwordError: String = "Incorrect password"
+    
+    // MARK: - Error Handling
     static let requiredError: String = "init(coder:) has not been implemented"
     static let incorrectCityNameError: String = "City not found. Please check the name and try again."
     static let fetchingError: String = "Error fetching weather data:"
@@ -54,11 +60,11 @@ extension String {
     static let cityWithCoordinatesError: String = "City not found for coordinates."
     static let unknownAuthorisationError: String = "An unknown authorization error occurred."
     static let getLocationFailError: String = "Failed to get location:"
+    
+    // MARK: - Alert Error
     static let errorAlertTitle: String = "Oops"
     static let errorAlertButtonTitle: String = "OK"
-}
-
-extension String {
+    
     func dateValue(format: String) -> Date? {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format

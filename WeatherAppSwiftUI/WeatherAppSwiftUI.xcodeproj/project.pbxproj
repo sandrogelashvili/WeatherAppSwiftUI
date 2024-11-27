@@ -15,9 +15,22 @@
 		08237A212CF6586E00431491 /* WeatherAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		08B986AF2CF790640015BE65 /* Exceptions for "WeatherAppSwiftUI" folder in "WeatherAppSwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = 08237A202CF6586E00431491 /* WeatherAppSwiftUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		08237A232CF6586E00431491 /* WeatherAppSwiftUI */ = {
+		08914ECF2CF672AE0072F189 /* WeatherAppSwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				08B986AF2CF790640015BE65 /* Exceptions for "WeatherAppSwiftUI" folder in "WeatherAppSwiftUI" target */,
+			);
 			path = WeatherAppSwiftUI;
 			sourceTree = "<group>";
 		};
@@ -39,7 +52,7 @@
 		08237A182CF6586E00431491 = {
 			isa = PBXGroup;
 			children = (
-				08237A232CF6586E00431491 /* WeatherAppSwiftUI */,
+				08914ECF2CF672AE0072F189 /* WeatherAppSwiftUI */,
 				08237A222CF6586E00431491 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +81,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				08237A232CF6586E00431491 /* WeatherAppSwiftUI */,
+				08914ECF2CF672AE0072F189 /* WeatherAppSwiftUI */,
 			);
 			name = WeatherAppSwiftUI;
 			packageProductDependencies = (
@@ -268,9 +281,12 @@
 				DEVELOPMENT_TEAM = 863JKHR7M8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherAppSwiftUI/Resources/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show accurate weather information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,9 +313,12 @@
 				DEVELOPMENT_TEAM = 863JKHR7M8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherAppSwiftUI/Resources/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show accurate weather information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
