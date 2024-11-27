@@ -24,7 +24,7 @@ class AppEntryViewModel: ObservableObject {
             isFirstLaunch = true
             UserDefaults.standard.set(true, forKey: String.firstEntranceLaunchKey)
         } else {
-            isFirstLaunch = false
+            isFirstLaunch = true
         }
     }
 

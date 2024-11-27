@@ -15,10 +15,10 @@ extension Image {
     static let logoutButtonIcon = Image(systemName: "arrow.left.to.line.circle.fill")
     
     static let splashScreenImage = Image("NatureImage")
-    static let sunnyDayImage = Image("SunnyDay")
-    static let rainyDayImage = Image("RainyDay")
+    static let sunnyDayImage = Image("GoodWeather")
+    static let rainyDayImage = Image("RainyWeather")
     static let snowyDayImage = Image("SnowyDay")
-    static let loginImage = Image("LoginPhoto")
+    static let loginImage = Image("LoginImage")
     static let sunImage = Image("sun")
     static let humidityImage = Image("HumidityIcon")
     static let cloudImage = Image("CloudIcon")
